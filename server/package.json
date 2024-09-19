@@ -1,0 +1,15 @@
+{
+  "name": "bee-chat",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">\r   <img src=\"logo.png\" width=\"200px\" alt=\"Bee Mail Logo\">\r </p>",
+  "main": "npm install",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
