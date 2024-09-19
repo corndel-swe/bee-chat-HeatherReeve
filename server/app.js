@@ -12,9 +12,9 @@ socket.on ('message', (message) => {
 
 function broadcast (content) {
     server.clients.forEach(client => {
-        const sendable = JSON.stringify({
-            "content":content
-        })
-        client.send(sendable)
+     const sendable = JSON.stringify({
+     "content":content
+     })
+      client.send(sendable)
     })
 }
